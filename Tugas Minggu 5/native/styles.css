@@ -1,0 +1,13 @@
+/* Stilisasi card header */
+.card-header.custom-header {
+    background-color: #007BFF; 
+    color: #fff; 
+    font-size: 24px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-footer {
+    margin-bottom: 20px;
+}

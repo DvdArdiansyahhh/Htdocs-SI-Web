@@ -1,0 +1,114 @@
+/* CSS untuk halaman login dan register */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    text-align: center;
+    width: auto;
+    margin: 50px;
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"],
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button:hover {
+    background-color: #555;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: #333;
+  }
+  
+  a:hover {
+    color: red;
+  }
+
+  /* Style untuk container "home_container" */
+.home_container {
+  background-color: white; /* Warna latar belakang */
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+table, tr, td {
+  border: 1px solid #333;
+  color: #333;
+}
+
+th {
+  background-color: #333;
+  padding: 10px;
+  font-weight: bolder;
+} 
+
+td {
+  padding: 10px;
+}
+
+/* Style untuk link Edit dan Hapus dalam tabel */
+a.edit, a.hapus {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0077cc;
+  color: #333;
+  text-decoration: none;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+}
